@@ -1,1 +1,3 @@
-pip install fastapi uvicorn mysql-connector-python
+fastapi 
+uvicorn 
+mysql-connector-python
