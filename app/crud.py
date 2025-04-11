@@ -330,7 +330,7 @@ def get_inventory_by_warehouse(warehouse_id):
         return records
     return {"error": "DB connection failed"}
 
-def handle_return(return_data: dict):
+def handle_return(return_data):
     conn = get_db_connection()
     if conn:
         cursor = conn.cursor()
